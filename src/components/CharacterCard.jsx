@@ -8,11 +8,10 @@ import Typography from '@mui/material/Typography';
 
 export default function CharacterCard({character}) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345 , width: 260 }}>
       <CardMedia
-        sx={{ height: 140 }}
-        image= {character.image}
-
+        sx={{ height: 260}}
+        image= {`https://genshin.jmp.blue/characters/${character.name.toLowerCase()}/gacha-splash`}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -22,9 +21,7 @@ export default function CharacterCard({character}) {
        {character.description}
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small">Learn More</Button>
-      </CardActions>
+      
     </Card>
     
   );

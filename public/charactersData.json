@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "name": "Albedo",
+      "description": "Alquimista en Jefe de los Caballeros de Favonius y Capitán del equipo de investigacion. Lo llaman el 'Príncipe de la Roca Caliza' "
+    },
+    {
+      "name": "Venti",
+      "description": "Uno de los muchos bardos de Mondstadt que deambula libremente por las calles y callejones de la ciudad"
+    },
+    {
+      "name": "Diluc",
+      "description": "El magnate del imperio vinícola de Mondstadt, inigualable en todos los sentidos."
+    },
+    {
+      "name": "Sayu",
+      "description": "Una ninja pertenciente a Los Ocelos. Muy bajita y siempre con aspecto de no haber dormido lo suficiente."
+    }
+  ]
+}
