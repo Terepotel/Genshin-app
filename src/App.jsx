@@ -34,7 +34,7 @@ function App() {
       <h1>Genshin App</h1>
       {
         characters.map((character)=> {
-          return <CharacterCard character={character}/>
+          return <CharacterCard character={character} key={character.name}/>
         })
       }
     </>
